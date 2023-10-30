@@ -35,7 +35,7 @@ body {
 .top {
     display: flex;
     align-items: center;
-    min-height: 25em;
+    min-height: 30em;
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url("imagenes/logos/BannerTorres.png");
 }
 
@@ -60,7 +60,7 @@ body {
 .categorias{
 	display: flex;
 	justify-content: center;
-	margin-top: 30px;
+	margin-top: 70px;
 }
 		.card-category{
 			height: 12rem;
@@ -112,23 +112,71 @@ body {
 			background-repeat: no-repeat;
 		}
 
-.categorias .card-category.category-materialesdeestudio .categorias-txt {
-    widows: inherit;
-    align-content: flex-start;
-    text-align: justify;
-
-}
-
-		.card-category span{
-			font-size: 1.6rem;
-			color: #fff;
-			cursor:pointer;
-		}
-		.card-category span:hover{
-			color: palegoldenrod;
-		}
-
-.products h1{
+.products{
 	text-align: center;
-	
 }
+		.prodshow{
+			display: flex;
+			justify-content: center;
+			margin-right: 20px;
+			margin-left: 20px;
+		}
+
+				.product {
+					margin: 7px;
+					height: 400px;
+					width: 280px;
+					background-color: rgba(228, 224, 220,1.00);
+					box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+				}
+				.product img {
+					margin-top: 20px;
+					width: 260px;
+					height: 255px;
+
+
+				}
+				.product h3 {
+					margin: 7px;
+					font-size: 18px;
+					color: rgba(53,53,53,1.00);
+					font-family: 'Oswald', sans-serif;
+					text-transform: uppercase;
+				}
+				.product a {
+					margin: 16px;
+					font-size: 12px;
+					color: rgba(0,80,100,1.00);
+					font-family: 'Oswald', sans-serif;
+					text-transform: uppercase;
+					text-decoration: overline
+			}
+			.precio {
+				font-size: 16px;
+				color:black;
+				font-weight: bold;
+			}
+
+
+.usuario {
+	text-align: center;
+	margin-top: 70px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+			.usuario table{
+				margin: auto;
+				border-radius: 10em;
+				border-style: solid;
+				border-width: medium;
+				border-color: rgba(0,55,153,1.00);
+				font-weight: bolder;
+			}
+			.usuario img{
+				margin: auto;
+				border-color: rgba(0,55,153,1.00);
+				border-style: solid;
+				border-radius: 10em;
+				width: 150px;
+				height: 150px;
+			}
