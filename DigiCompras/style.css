@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald';
+
+}
+
+.header{
+	display: flex;
+	background-color: rgba(0,4,10,1.00);
+	color: white;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+	
+}
+.monograma{
+	display: flex;
+	background-color: rgba(0,4,10,1.00);
+	margin-left: 50px;
+}
+			.menu{
+				position: fixed;
+				justify-content: center;
+				background-color: rgba(0,4,10,1.00);
+				right: 50px;
+				top: 10px;
+		}
+				.menu a{
+					color: white;
+					text-decoration: none;
+				}
+.top {
+    display: flex;
+    align-items: center;
+    min-height: 25em;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url("imagenes/logos/BannerTorres.png");
+}
+
+		.top-title	{
+			font-size: 73px;
+			text-transform: uppercase;
+			line-height: 1;
+			color: white;
+			font-family: 'Oswald', sans-serif;
+			margin-bottom: 15px;
+			margin-right: 250px;
+			margin-left: 50px;
+		}
+		.top-text{
+			font-size: 15px;
+			color: white;
+			margin-right: 250px;
+			margin-left: 55px;
+			margin-bottom: 25px;
+}
+
+.categorias{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+		.card-category{
+			height: 12rem;
+			width: 16rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border-radius: 2rem;
+			margin: 10px
+		}
+				.card-category a{
+					font-size: 2rem;
+					color: white;
+					text-transform: capitalize;
+					text-decoration: none; 
+				}
+		.category-alimentosybebidas{
+			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Alimentos y Bebidas.jpg');
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+
+		.category-materialesdeestudio{
+			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Materiales de Estudio.jpg');
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+		.category-ropayaccesorios{
+			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Ropa y Accesorios.jpg');
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+
+		.category-tecnologia{
+			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Tecnología.jpg');
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+
+		.category-otros{
+			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Otros.jpg');
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+
+.categorias .card-category.category-materialesdeestudio .categorias-txt {
+    widows: inherit;
+    align-content: flex-start;
+    text-align: justify;
+
+}
+
+		.card-category span{
+			font-size: 1.6rem;
+			color: #fff;
+			cursor:pointer;
+		}
+		.card-category span:hover{
+			color: palegoldenrod;
+		}
+
+.products h1{
+	text-align: center;
+	
+}

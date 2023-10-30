@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiCompras</title>
+    <link rel="shortcut icon"  href="imagenes/LogoGoyoNegro.png" type="image/x-icon">
+    <link rel="stylesheet" href="sstyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="Logo">DigiCompras</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu (1).ico" class="menu-icono" alt="menu">
+            </label>
+           
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="#">Categorías</a></li>
+                    <li> <a href="#">Blog</a></li>
+
+                </ul>
+            </nav>
+            <div>
+                <ul class="submenu">
+                    <img src="imagenes/LogoCarritoNegro ICO.ico" div="img-carrito" alt="">
+                    <div class="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                                <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="#" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ropa y Accesorios</h1>
+                
+               
+            </div>
+        </div>
+        <section class="container top-products">
+            <h1 class="heading-1"></h1>
+            <div class="container-products">
+                <!-- Producto 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/ropa1.jpg" alt="Bufanda" />
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Bufanda Ratón</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$190.00 </p>
+                    </div>
+                </div>
+                <div class="container-products">
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="imagenes/ropa2.jpg" alt="gorros" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Variedad de gorros</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$90.00 c/u <span>$100.00 c/u</span></p>
+						</div>
+					</div>
+                    <div class="container-products">
+                        <!-- Producto 3 -->
+                        <div class="card-product">
+                            <div class="container-img">
+                                <img src="imagenes/ropa3.jpg" alt="bolsas" />
+                                <div class="button-group">
+                                    <span>
+                                        <i class="fa-regular fa-eye"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-code-compare"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content-card-product">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Variedad de bolsas</h3>
+                                <span class="add-cart">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </span>
+                                <p class="price">$180.00 <span>$200.00</span></p>
+                            </div>
+                        </div>
+                        <div class="container-products">
+                            <!-- Producto 4 -->
+                            <div class="card-product">
+                                <div class="container-img">
+                                    <img src="imagenes/ropa4.jpg" alt="Calsetas" />
+                                    <div class="button-group">
+                                        <span>
+                                            <i class="fa-regular fa-eye"></i>
+                                        </span>
+                                        <span>
+                                            <i class="fa-regular fa-heart"></i>
+                                        </span>
+                                        <span>
+                                            <i class="fa-solid fa-code-compare"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-card-product">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h3>Variedad de calseta</h3>
+                                    <span class="add-cart">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </span>
+                                    <p class="price">$20.00 <span>$25.00</span></p>
+                                </div>
+                            </div>
+                            <div class="container-products">
+                                <!-- Producto 5 -->
+                                <div class="card-product">
+                                    <div class="container-img">
+                                        <img src="imagenes/ropa5.jpg" alt="lentes" />
+                                    
+                                        <div class="button-group">
+                                            <span>
+                                                <i class="fa-regular fa-eye"></i>
+                                            </span>
+                                            <span>
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <span>
+                                                <i class="fa-solid fa-code-compare"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content-card-product">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <h3>Variedad Lentes de Sol</h3>
+                                        <span class="add-cart">
+                                            <i class="fa-solid fa-basket-shopping"></i>
+                                        </span>
+                                        <p class="price">$60.00 <span>$70.00</span></p>
+                                    </div>
+                                </div>
+                                <div class="container-products">
+                                    <!-- Producto 6 -->
+                                    <div class="card-product">
+                                        <div class="container-img">
+                                            <img src="imagenes/ropa6.jpg" alt="aretes" />
+                                            
+                                            <div class="button-group">
+                                                <span>
+                                                    <i class="fa-regular fa-eye"></i>
+                                                </span>
+                                                <span>
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </span>
+                                                <span>
+                                                    <i class="fa-solid fa-code-compare"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="content-card-product">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <h3>Aretes Star</h3>
+                                            <span class="add-cart">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                            </span>
+                                            <p class="price">$50.60</p>
+                                        </div>
+                                    </div>
+                                    <div class="container-products">
+                                        <!-- Producto 7 -->
+                                        <div class="card-product">
+                                            <div class="container-img">
+                                                <img src="imagenes/ropa7.jpg" alt="Collar" />
+                                            
+                                                <div class="button-group">
+                                                    <span>
+                                                        <i class="fa-regular fa-eye"></i>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </span>
+                                                    <span>
+                                                        <i class="fa-solid fa-code-compare"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="content-card-product">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                </div>
+                                                <h3>Collar </h3>
+                                                <span class="add-cart">
+                                                    <i class="fa-solid fa-basket-shopping"></i>
+                                                </span>
+                                                <p class="price">$90.00 <span>$120.00</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="container-products">
+                                            <!-- Producto 8 -->
+                                            <div class="card-product">
+                                                <div class="container-img">
+                                                    <img src="imagenes/ropa8.jpg" alt="camiseta" />
+                                                    
+                                                    <div class="button-group">
+                                                        <span>
+                                                            <i class="fa-regular fa-eye"></i>
+                                                        </span>
+                                                        <span>
+                                                            <i class="fa-regular fa-heart"></i>
+                                                        </span>
+                                                        <span>
+                                                            <i class="fa-solid fa-code-compare"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="content-card-product">
+                                                    <div class="stars">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </div>
+                                                    <h3>Camiseta Escarabajo</h3>
+                                                    <span class="add-cart">
+                                                        <i class="fa-solid fa-basket-shopping"></i>
+                                                    </span>
+                                                    <p class="price">$160.00 </p>
+                                                </div>
+                                            </div>
+                                            <div class="container-products">
+                                                <!-- Producto 9 -->
+                                                <div class="card-product">
+                                                    <div class="container-img">
+                                                        <img src="imagenes/ropa9.jpg" alt="camiseta arco" />
+                                                        
+                                                        <div class="button-group">
+                                                            <span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </span>
+                                                            <span>
+                                                                <i class="fa-regular fa-heart"></i>
+                                                            </span>
+                                                            <span>
+                                                                <i class="fa-solid fa-code-compare"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-card-product">
+                                                        <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <h3>Playera Arcoiris</h3>
+                                                        <span class="add-cart">
+                                                            <i class="fa-solid fa-basket-shopping"></i>
+                                                        </span>
+                                                        <p class="price">$120.00</p>
+                                                    </div>
+                                                </div>
+                                                <div class="container-products">
+                                                    <!-- Producto 10 -->
+                                                    <div class="card-product">
+                                                        <div class="container-img">
+                                                            <img src="imagenes/nike designed sweatshirt.jpg" alt="sudadera nike" />
+                                                           
+                                                            <div class="button-group">
+                                                                <span>
+                                                                    <i class="fa-regular fa-eye"></i>
+                                                                </span>
+                                                                <span>
+                                                                    <i class="fa-regular fa-heart"></i>
+                                                                </span>
+                                                                <span>
+                                                                    <i class="fa-solid fa-code-compare"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-card-product">
+                                                            <div class="stars">
+                                                                <i class="fa-solid fa-star"></i>
+                                                                <i class="fa-solid fa-star"></i>
+                                                                <i class="fa-solid fa-star"></i>
+                                                                <i class="fa-solid fa-star"></i>
+                                                                <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                            <h3>Sudadera Nike</h3>
+                                                            <span class="add-cart">
+                                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                            </span>
+                                                            <p class="price">$300.00 </p>
+                                                        </div>
+                                                    </div>
+</body>
+</html>
