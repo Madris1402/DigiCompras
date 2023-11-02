@@ -26,7 +26,7 @@
 		<tbody>
 		  <tr>
 			  <th scope="col">&nbsp;<a href="index.html">Inicio</a></th>
-			  <th scope="col">&nbsp;<a href="">Carrito</a></th>
+			  <th scope="col"><a href="Carrito.html">Carrito</a></th>
 			  <th scope="col">&nbsp;<a href="Mi Cuenta.html">Mi Cuenta</a></th>
 		  </tr>
 		</tbody>
@@ -64,7 +64,7 @@
 				<div class="product-txt">
 				<h3>cargador retro para celular</h3>
 					<p class="precio">$200.00</p>
-					<a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('cargador retro para celular', 'imagenes/productos/Tecnología/Tecnología (1).jpg', 200)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -72,9 +72,9 @@
 		<div class="product-content">
 			<div class="product"> <img src="imagenes/productos/Tecnología/Tecnología (2).jpg" alt="">
 				<div class="product-txt">
-					<h3>audífonos sony&nbsp;&nbsp;</h3>
+					<h3>audífonos sony</h3>
 					<p class="precio">$3800.00</p>
-					<a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('audífonos sony', 'imagenes/productos/Tecnología/Tecnología (2).jpg', 3800)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -82,9 +82,9 @@
 		<div class="product-content">
 			<div class="product"> <img src="imagenes/productos/Tecnología/Tecnología (3).jpg" alt="">
 				<div class="product-txt">
-					<h3>nintendo switch&nbsp;&nbsp;</h3>
+					<h3>nintendo switch</h3>
 					<p class="precio">$3500.00</p>
-					<a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('nintendo switch', 'imagenes/productos/Tecnología/Tecnología (3).jpg', 3500)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -92,9 +92,9 @@
 		<div class="product-content">
 			<div class="product"> <img src="imagenes/productos/Tecnología/Tecnología (4).jpg" alt="">
 				<div class="product-txt">
-					<h3>audífonos xiaomi&nbsp;</h3>
+					<h3>audífonos xiaomi</h3>
 					<p class="precio">$370.00</p>
-					<a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('audífonos xiaomi', 'imagenes/productos/Tecnología/Tecnología (4).jpg', 370)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -104,19 +104,16 @@
 				<div>
 					<h3>audifonos de diadema</h3>
 					<p class="precio">$730.00</p>
-					<a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('audifonos de diadema', 'imagenes/productos/Tecnología/Tecnología (5).jpg', 730)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
-		
-	</section>
-	<section class="prodshow container">
 	  <div class="product-content">
 	    <div class="product"> <img src="imagenes/productos/Tecnología/Tecnología (6).jpg" alt="">
 	      <div class="product-txt">
 	        <h3>frigobar oso</h3>
 	        <p class="precio">$2500.00</p>
-	        <a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('frigobar oso', 'imagenes/productos/Tecnología/Tecnología (6).jpg', 2500)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -124,7 +121,7 @@
 	      <div class="product-txt">
 	        <h3>ventilador oso</h3>
 	        <p class="precio">$800.00</p>
-	        <a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('ventilador oso', 'imagenes/productos/Tecnología/Tecnología (7).jpg', 800)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -132,7 +129,7 @@
 	      <div class="product-txt">
 	        <h3>globo terraqueo lámpara</h3>
 	        <p class="precio">$1000.00</p>
-	        <a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('globo terraqueo lámpara', 'imagenes/productos/Tecnología/Tecnología (8).jpg', 1000)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -140,7 +137,7 @@
 	      <div class="product-txt">
 	        <h3>despertadorhello kitty</h3>
 	        <p class="precio">$300.00</p>
-	        <a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('despertadorhello kitty', 'imagenes/productos/Tecnología/Tecnología (9).jpg', 300)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -148,10 +145,11 @@
 	      <div>
 	        <h3>ventilador corazon</h3>
 	        <p class="precio">$1000.00</p>
-	        <a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('ventilador corazon', 'imagenes/productos/Tecnología/Tecnología (10).jpg', 1000)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
   </section>
 </section>
+<script src="script.js"></script>
 </body>
 </html>

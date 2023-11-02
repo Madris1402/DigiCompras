@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DigiCompras Aragón</title>
+    <link
+      rel="shortcut icon"
+      href="imagenes/logos/LogoGoyoBlanco1.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <table width="200" border="0" class="monograma">
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="imagenes/logos/LogoGoyoBlanco1.png"
+                width="40"
+                height="40"
+                alt=""
+              />
+            </td>
+            <th scope="col">DigiCompras</th>
+          </tr>
+        </tbody>
+      </table>
+
+      <table width="200" border="0" class="menu">
+        <tbody>
+          <tr>
+            <th scope="col">&nbsp;<a href="index.html">Inicio</a></th>
+            <th scope="col">&nbsp;<a href="">Carrito</a></th>
+            <th scope="col">&nbsp;<a href="Mi Cuenta.html">Mi Cuenta</a></th>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+
+    <section class="products">
+      <h1 style="margin-top: 70px">Carrito de compras</h1>
+      <h4>Todos los productos que tienes guardados</h4>
+	  <div class="button_pedir-productos display-none">
+		<button onclick="realizarPedido()">Realizar pedido</button>
+	  </div>
+
+      <section class="prodshow container">
+		<!-- Aquí estaran los productos -->
+      </section>
+    </section>
+	<script src="carrito.js"></script>
+  </body>
+</html>

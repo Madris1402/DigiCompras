@@ -26,7 +26,7 @@
 		<tbody>
 		  <tr>
 			  <th scope="col">&nbsp;<a href="index.html">Inicio</a></th>
-			  <th scope="col">&nbsp;<a href="">Carrito</a></th>
+			  <th scope="col"><a href="Carrito.html">Carrito</a></th>
 			  <th scope="col">&nbsp;<a href="Mi Cuenta.html">Mi Cuenta</a></th>
 		  </tr>
 		</tbody>
@@ -64,7 +64,7 @@
 				<div class="product-txt">
 				<h3>Star bag</h3>
 					<p class="precio">$250.00</p>
-					<a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Star bag', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (17).jpg', 250)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -74,7 +74,7 @@
 				<div class="product-txt">
 					<h3>Sudadera Nike</h3>
 					<p class="precio">$600.00</p>
-					<a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Sudadera Nike', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (6).jpg', 600)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -84,7 +84,7 @@
 				<div class="product-txt">
 					<h3>Crop Escarabajo</h3>
 					<p class="precio">$100.00</p>
-					<a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Crop Escarabajo', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (14).jpg', 100)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 				<div class="product-txt">
 					<h3>bolso de mano</h3>
 					<p class="precio">$470.00</p>
-					<a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('bolso de mano', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (9).jpg', 470)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -104,19 +104,16 @@
 				<div>
 					<h3>Shark gorrito</h3>
 					<p class="precio">$250.00</p>
-					<a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Shark gorrito', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (5).jpg', 250)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
-		
-	</section>
-	<section class="prodshow container">
 	  <div class="product-content">
 	    <div class="product"> <img src="imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (8).jpg" alt="">
 	      <div class="product-txt">
 	        <h3>gorros de lana</h3>
 	        <p class="precio">$100.00</p>
-	        <a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('gorros de lana', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (8).jpg', 100)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -124,15 +121,15 @@
 	      <div class="product-txt">
 	        <h3>bufanda de ratón</h3>
 	        <p class="precio">$280.00</p>
-	        <a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('bufanda de ratón', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (7).jpg', 280)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
 	    <div class="product"> <img src="imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (11).jpg" alt="">
 	      <div class="product-txt">
-	        <h3>lentes de sol&nbsp;</h3>
+	        <h3>lentes de sol</h3>
 	        <p class="precio">$70.00</p>
-	        <a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('lentes de sol', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (11).jpg', 70)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -140,7 +137,7 @@
 	      <div class="product-txt">
 	        <h3>aretes de mariposas</h3>
 	        <p class="precio">$120.00</p>
-	        <a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('aretes de mariposas', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (12).jpg', 120)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -148,10 +145,11 @@
 	      <div>
 	        <h3>calcetines</h3>
 	        <p class="precio">$60.00</p>
-	        <a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('calcetines', 'imagenes/productos/Ropa y Accesorios/Ropa y Accesorios (10).jpg', 60)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
   </section>
 </section>
+<script src="script.js"></script>
 </body>
 </html>

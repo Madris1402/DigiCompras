@@ -26,7 +26,7 @@
 		<tbody>
 		  <tr>
 			  <th scope="col">&nbsp;<a href="index.html">Inicio</a></th>
-			  <th scope="col">&nbsp;<a href="">Carrito</a></th>
+			  <th scope="col"><a href="Carrito.html">Carrito</a></th>
 			  <th scope="col">&nbsp;<a href="Mi Cuenta.html">Mi Cuenta</a></th>
 		  </tr>
 		</tbody>
@@ -65,7 +65,7 @@
 				<div class="product-txt">
 				<h3>agendapersonalizada</h3>
 					<p class="precio">$150.00</p>
-					<a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('agendapersonalizada', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (10).jpg', 150)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@
 				<div class="product-txt">
 					<h3>Plumones 120 colores</h3>
 					<p class="precio">$300.00</p>
-					<a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Plumones 120 colores', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (9).jpg', 300)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 				<div class="product-txt">
 					<h3>Plumones semi-profesionales</h3>
 					<p class="precio">$200.00</p>
-					<a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('Plumones semi-profesionales', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (11).jpg', 200)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -93,9 +93,9 @@
 		<div class="product-content">
 			<div class="product"> <img src="imagenes/productos/Materiales de Estudio/Materiales de Estudio (7).jpg" alt="">
 				<div class="product-txt">
-					<h3>organizador champiñón&nbsp;</h3>
+					<h3>organizador champiñón</h3>
 					<p class="precio">$180.00</p>
-					<a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('organizador champiñón', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (7).jpg', 180)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
@@ -105,19 +105,16 @@
 				<div>
 					<h3>organizador lindo</h3>
 					<p class="precio">$120.00</p>
-					<a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> 
+					<span onclick="addToCart('organizador lindo', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (6).jpg', 120)">Agregar al carrito</span> <a href="">Contacto</a> 
 				</div>
 			</div>
 		</div>
-		
-	</section>
-	<section class="prodshow container">
 	  <div class="product-content">
 	    <div class="product"> <img src="imagenes/productos/Materiales de Estudio/Materiales de Estudio (1).jpg" alt="">
 	      <div class="product-txt">
-	        <h3>paw cutter&nbsp;&nbsp;</h3>
+	        <h3>paw cutter</h3>
 	        <p class="precio">$60.00</p>
-	        <a href="" data-id="1">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('paw cutter', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (1).jpg', 60)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -125,15 +122,15 @@
 	      <div class="product-txt">
 	        <h3>Lapicera</h3>
 	        <p class="precio">$230.00</p>
-	        <a href="" data-id="2">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('Lapicera', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (2).jpg', 230)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
 	    <div class="product"> <img src="imagenes/productos/Materiales de Estudio/Materiales de Estudio (3).jpg" alt="">
 	      <div class="product-txt">
-	        <h3>Calculadora Minimalista&nbsp;</h3>
+	        <h3>Calculadora Minimalista</h3>
 	        <p class="precio">$200.00</p>
-	        <a href="" data-id="3">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('Calculadora Minimalista', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (3).jpg', 200)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -141,7 +138,7 @@
 	      <div class="product-txt">
 	        <h3>pluma multicolor Oso</h3>
 	        <p class="precio">$40.00</p>
-	        <a href="" data-id="4">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('pluma multicolor Oso', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (4).jpg', 40)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
 	  <div class="product-content">
@@ -149,10 +146,11 @@
 	      <div>
 	        <h3>lista de quehaceres</h3>
 	        <p class="precio">$30.00</p>
-	        <a href="" data-id="5">Agregar al carrito</a> <a href="">Contacto</a> </div>
+	        <span onclick="addToCart('lista de quehaceres', 'imagenes/productos/Materiales de Estudio/Materiales de Estudio (5).jpg', 30)">Agregar al carrito</span> <a href="">Contacto</a> </div>
         </div>
       </div>
   </section>
 </section>
+<script src="script.js"></script>
 </body>
 </html>
