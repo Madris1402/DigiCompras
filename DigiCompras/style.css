@@ -59,11 +59,22 @@ body {
 			margin-bottom: 25px;
 }
 
+h2{
+	font-size: 1.5rem;
+	color: white;
+	text-transform: capitalize;
+	text-decoration: none; 
+}
 .categorias{
 	display: flex;
 	justify-content: center;
 	margin-top: 70px;
 }
+		.categorias a{
+			color: white;
+			text-transform: capitalize;
+			text-decoration: none;
+		}
 		.card-category{
 			height: 12rem;
 			width: 16rem;
@@ -74,12 +85,7 @@ body {
 			border-radius: 2rem;
 			margin: 10px
 		}
-				.card-category a{
-					font-size: 2rem;
-					color: white;
-					text-transform: capitalize;
-					text-decoration: none; 
-				}
+
 		.category-alimentosybebidas{
 			background-image: linear-gradient(rgba(0,0,0,0),rgba(0,4,10,0.9)), url('imagenes/categorias/Alimentos y Bebidas.jpg');
 			background-size: cover;
